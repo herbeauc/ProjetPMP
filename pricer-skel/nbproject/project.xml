@@ -6,7 +6,11 @@
             <name>pricer-skel</name>
             <c-extensions/>
             <cpp-extensions>cpp,cxx</cpp-extensions>
+<<<<<<< HEAD
             <header-extensions>h,hpp</header-extensions>
+=======
+            <header-extensions>hpp</header-extensions>
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>

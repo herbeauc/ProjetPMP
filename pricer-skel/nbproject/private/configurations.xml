@@ -37,6 +37,7 @@
         <in>BasketOption.cpp</in>
         <in>BasketOption.h</in>
         <in>BlackScholesModel.hpp</in>
+        <in>MonteCarlo.cpp</in>
         <in>MonteCarlo.hpp</in>
         <in>Option.hpp</in>
         <in>PerformanceOption.cpp</in>

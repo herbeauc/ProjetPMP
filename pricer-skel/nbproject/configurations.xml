@@ -3,12 +3,17 @@
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
       <df name="src">
+<<<<<<< HEAD
         <in>AsianOption.cpp</in>
         <in>AsianOption.hpp</in>
         <in>BasketOption.cpp</in>
         <in>BasketOption.h</in>
         <in>PerformanceOption.cpp</in>
         <in>PerformanceOption.hpp</in>
+=======
+        <in>MonteCarlo.cpp</in>
+        <in>MonteCarlo.hpp</in>
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
         <in>mc_example.cpp</in>
         <in>parser.cpp</in>
         <in>test_parser.cpp</in>
@@ -50,6 +55,7 @@
           </ccTool>
         </makeTool>
       </makefileType>
+<<<<<<< HEAD
       <item path="src/AsianOption.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/AsianOption.hpp" ex="false" tool="3" flavor2="0">
@@ -61,6 +67,11 @@
       <item path="src/PerformanceOption.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/PerformanceOption.hpp" ex="false" tool="3" flavor2="0">
+=======
+      <item path="src/MonteCarlo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MonteCarlo.hpp" ex="false" tool="3" flavor2="0">
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
       </item>
       <item path="src/mc_example.cpp" ex="false" tool="1" flavor2="4">
       </item>

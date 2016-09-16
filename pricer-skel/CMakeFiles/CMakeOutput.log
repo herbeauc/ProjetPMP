@@ -133,6 +133,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
+<<<<<<< HEAD
 The CXX compiler identification is GNU, found in "/user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
@@ -160,6 +161,35 @@ Building CXX object CMakeFiles/cmTC_d5cc3.dir/CMakeCXXCompilerABI.cpp.o
 Linking CXX executable cmTC_d5cc3
 /usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_d5cc3.dir/link.txt --verbose=1
 /usr/bin/g++       -v CMakeFiles/cmTC_d5cc3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5cc3 -rdynamic  
+=======
+The CXX compiler identification is GNU, found in "/user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9cb8a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9cb8a.dir/build.make CMakeFiles/cmTC_9cb8a.dir/build
+gmake[1]: Entering directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9cb8a.dir/testCXXCompiler.cxx.o
+/usr/bin/g++      -o CMakeFiles/cmTC_9cb8a.dir/testCXXCompiler.cxx.o -c "/user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_9cb8a
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_9cb8a.dir/link.txt --verbose=1
+/usr/bin/g++        CMakeFiles/cmTC_9cb8a.dir/testCXXCompiler.cxx.o  -o cmTC_9cb8a -rdynamic 
+gmake[1]: Leaving directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1c82a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1c82a.dir/build.make CMakeFiles/cmTC_1c82a.dir/build
+gmake[1]: Entering directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++      -o CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_1c82a
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_1c82a.dir/link.txt --verbose=1
+/usr/bin/g++       -v CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1c82a -rdynamic  
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -169,13 +199,20 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5cc3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d5cc3 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d5cc3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: Leaving directory `/user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c82a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c82a /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< HEAD
   ignore line: [Change Dir: /user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d5cc3/fast"]
@@ -186,6 +223,18 @@ Parsed CXX implicit link information from above output:
   ignore line: [Linking CXX executable cmTC_d5cc3]
   ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_d5cc3.dir/link.txt --verbose=1]
   ignore line: [/usr/bin/g++       -v CMakeFiles/cmTC_d5cc3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5cc3 -rdynamic  ]
+=======
+  ignore line: [Change Dir: /user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_1c82a/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_1c82a.dir/build.make CMakeFiles/cmTC_1c82a.dir/build]
+  ignore line: [gmake[1]: Entering directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++      -o CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_1c82a]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_1c82a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++       -v CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1c82a -rdynamic  ]
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -195,8 +244,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5cc3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d5cc3 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d5cc3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c82a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c82a /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -208,7 +262,11 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_d5cc3] ==> ignore
+=======
+    arg [cmTC_1c82a] ==> ignore
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -217,7 +275,11 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+<<<<<<< HEAD
     arg [CMakeFiles/cmTC_d5cc3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+=======
+    arg [CMakeFiles/cmTC_1c82a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -244,6 +306,7 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/gmake" "cmTC_95528/fast"
@@ -255,6 +318,19 @@ Linking CXX executable cmTC_95528
 /usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_95528.dir/link.txt --verbose=1
 /usr/bin/g++        CMakeFiles/cmTC_95528.dir/feature_tests.cxx.o  -o cmTC_95528 -rdynamic 
 gmake[1]: Leaving directory `/user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a2597/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a2597.dir/build.make CMakeFiles/cmTC_a2597.dir/build
+gmake[1]: Entering directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2597.dir/feature_tests.cxx.o
+/usr/bin/g++     -std=c++1y -o CMakeFiles/cmTC_a2597.dir/feature_tests.cxx.o -c "/user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_a2597
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_a2597.dir/link.txt --verbose=1
+/usr/bin/g++        CMakeFiles/cmTC_a2597.dir/feature_tests.cxx.o  -o cmTC_a2597 -rdynamic 
+gmake[1]: Leaving directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -317,6 +393,7 @@ gmake[1]: Leaving directory `/user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/gmake" "cmTC_ea809/fast"
@@ -328,6 +405,19 @@ Linking CXX executable cmTC_ea809
 /usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_ea809.dir/link.txt --verbose=1
 /usr/bin/g++        CMakeFiles/cmTC_ea809.dir/feature_tests.cxx.o  -o cmTC_ea809 -rdynamic 
 gmake[1]: Leaving directory `/user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5b666/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5b666.dir/build.make CMakeFiles/cmTC_5b666.dir/build
+gmake[1]: Entering directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5b666.dir/feature_tests.cxx.o
+/usr/bin/g++     -std=c++11 -o CMakeFiles/cmTC_5b666.dir/feature_tests.cxx.o -c "/user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_5b666
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_5b666.dir/link.txt --verbose=1
+/usr/bin/g++        CMakeFiles/cmTC_5b666.dir/feature_tests.cxx.o  -o cmTC_5b666 -rdynamic 
+gmake[1]: Leaving directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -390,6 +480,7 @@ gmake[1]: Leaving directory `/user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/gmake" "cmTC_7205b/fast"
@@ -401,6 +492,19 @@ Linking CXX executable cmTC_7205b
 /usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_7205b.dir/link.txt --verbose=1
 /usr/bin/g++        CMakeFiles/cmTC_7205b.dir/feature_tests.cxx.o  -o cmTC_7205b -rdynamic 
 gmake[1]: Leaving directory `/user/3/.base/samotd/home/3A/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fdad8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fdad8.dir/build.make CMakeFiles/cmTC_fdad8.dir/build
+gmake[1]: Entering directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fdad8.dir/feature_tests.cxx.o
+/usr/bin/g++     -std=c++98 -o CMakeFiles/cmTC_fdad8.dir/feature_tests.cxx.o -c "/user/2/raquya/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_fdad8
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_fdad8.dir/link.txt --verbose=1
+/usr/bin/g++        CMakeFiles/cmTC_fdad8.dir/feature_tests.cxx.o  -o cmTC_fdad8 -rdynamic 
+gmake[1]: Leaving directory `/user/2/.base/raquya/home/Troisieme_Annee/S5/Projet P&M/ProjetPMP/pricer-skel/CMakeFiles/CMakeTmp'
+>>>>>>> 4795f495415717bc6641df9d1355f7cca17bedcd
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
