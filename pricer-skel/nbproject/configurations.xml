@@ -3,6 +3,8 @@
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
       <df name="src">
+        <in>MonteCarlo.cpp</in>
+        <in>MonteCarlo.hpp</in>
         <in>mc_example.cpp</in>
         <in>parser.cpp</in>
         <in>test_parser.cpp</in>
@@ -36,8 +38,18 @@
           <buildCommand>${MAKE} -f Makefile</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
           <executablePath></executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/matieres/5MMPMP6/pnl-1.7.4/build/include</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
         </makeTool>
       </makefileType>
+      <item path="src/MonteCarlo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MonteCarlo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/mc_example.cpp" ex="false" tool="1" flavor2="4">
       </item>
       <item path="src/parser.cpp" ex="false" tool="1" flavor2="4">
